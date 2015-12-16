@@ -32,7 +32,8 @@
 *.dSYM/
 
 # Automake
-Makefile.in
+/Makefile.in
+/Makefile
 
 # Autoconf
 /autom4te.cache
@@ -46,4 +47,10 @@ Makefile.in
 /depcomp
 /install-sh
 /missing
-/stamp-h1
+/stamp-h?
+
+/config.*
+/m4/
+.deps/
+.dirstamp
+*~
